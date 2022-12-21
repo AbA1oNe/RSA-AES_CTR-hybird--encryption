@@ -1,4 +1,6 @@
 # RSA-AES_CTR-hybird--encryption
+## 資訊安全與管理HW2
+## 使用PyCryptodome 進行RSA+AES_CTR的加密解密
 
 data資料夾內含有data.txt => 原文的文字檔案；cipher_text.txt => 原文經過AES加密過後得到的密文，第一行為nonce、第二行為密文，經過base64編碼再由utf-8解碼；
 decrypted_plain_text.txt => AES解密密文過後得到的原文，應與data.txt完全相同
